@@ -1,0 +1,121 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+ h1{
+ 	text-align: center;
+ 	text-shadow: 2px 2px 7px orange;
+ }
+
+ h2,h3{
+ 	text-align: center;
+ 	text-shadow: 2px 2px 7px purple;
+ }
+
+ html{
+ 	scroll-behavior: smooth; /*suaviza rolagem*/
+ }
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.astro{
+	width: 300px; height: 300px;
+	border-radius: 50%;
+	border: 5px white solid;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 0 15px purple;
+	/* Usado para fazer circulo na foto*/
+}
+
+a.btn{
+	/*arredondamento*/
+	border-radius: 5px;
+	/*retira o sublinhado*/
+	text-decoration: none;
+	/*centraliza o texto*/
+	text-align: center;
+	/*cor do texto*/
+	color: black;
+	/*cor do fundo da caixa*/
+	background-color: lightgray;
+	/*largura*/
+	width: 80px;
+	/*KIT CENTRALIZADOR*/
+	display: block;
+	/*KIT CENTRALIZADOR*/
+	margin: 0 auto;
+	/**/
+	padding: 5px;
+
+	font-size: 15px;
+
+}
+
+.btn:hover{/*Pseudoclasse ao passar o mouse por cima*/
+	box-shadow: 0 0 5px yellow
+}
+
+ul{
+	position: sticky;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+
+}
+
+/*Link dentra da lista*/
+li a {
+	display: block;
+	background-color: black;
+	padding: 14px 39px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+li a:hover{
+	background-color: #2F4F4F;
+}
+
+.ativo{
+
+	background-color: #2F4F4F;
+	border: 1px solid white;
+	box-shadow: 0 0 3px white;
+}
+
+.espaco{
+
+	display: block;
+	background-color: black;
+	padding: 14px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+table caption{
+	border: solid white 2px;
+}
+
+table{
+	margin: 0 auto;
+	border-color: white;
+}
+
+table img{
+	width: 80px;
+	height: 80px;
+
+}
